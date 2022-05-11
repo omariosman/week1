@@ -8,8 +8,8 @@ template LessThan10() {
 
     component lt = LessThan(32); 
 
-    lt.in[0] <== in;
-    lt.in[1] <== 10;
+    lt.in[0] <== in; //16 bits
+    lt.in[1] <== 10; //16 bits
 
     out <== lt.out;
 }
